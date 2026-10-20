@@ -18,3 +18,14 @@
 - **Linux:** `lp -d <printer> -o raw lj402fw_20220414.ENG.rfu`
 
 در حین آپدیت پرینتر را خاموش نکنید. پرینتر بعد از آپدیت خودش ری‌استارت می‌شود.
+## برنامه آپدیت (exe)
+
+| | |
+|---|---|
+| File | `M402_M403_Series_FW_Update-20220414.zip` → `M402_M403_Series_FW_Update-20220414.exe` |
+| Source | https://ftp.hp.com/pub/softlib/software13/FW_CPE_Commercial/M402_M403/M402_M403_Series_FW_Update-20220414.exe |
+| Size (.exe) | 15,406,520 bytes |
+| SHA-256 (.exe) | `a0ba1e0a21227fd0c3dd6cfcada1fef26bb94a5384b6c84ffb5abe17e47c8e6b` |
+| Signature | Valid, signed by HP Inc. |
+
+zip را باز کنید و فایل exe را روی ویندوزی اجرا کنید که پرینتر (با USB یا شبکه) روی آن نصب است. بعد پرینتر را از لیست انتخاب کنید و روی Send Firmware بزنید.
